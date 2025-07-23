@@ -29,11 +29,4 @@
     "vite": "^6.2.0"
   }
 
-},
-  {
-  "javascript.preferences.importModuleSpecifier": "short",
-  "typescript.preferences.importModuleSpecifier": "short",
-  "editor.snippetSuggestions": "top",
-  "javascript.validate.enable": false,
-  "typescript.validate.enable": false
 }
