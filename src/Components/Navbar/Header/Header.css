@@ -14,5 +14,24 @@
     bottom: 10%;
     max-width: 50%;
     left: 6vw;
+    /* animation: fadein 3s; */
+ }
+ .header-conten h2{
+    font-weight: 500;
+    color: white;
+    font-size: max(4.5vw, 22px )
+ }
+ .header-content p{
+    color: white;
+    font-size: 1vw;
 
+ }
+ .header-content button{
+    border: none;
+    color: #747474;
+    font-weight: 500;
+    padding: 1vw 2.vw;
+    background-color: white;
+    font-size: max(1vw, 13px) ;
+    border-radius: 50px;
  }
