@@ -1,9 +1,10 @@
 import React from 'react'
 import Navbar from "./Components/Navbar/Navbar"
 import { Routes, Route } from 'react-router'
-import Home from './Pages/Cart/PlaceOrder/Home/Home'
+import Home from './Pages/Home/Home'
 import Cart from './Pages/Cart/Cart'
-import PlaceOrder from './Pages/Cart/PlaceOrder/Home/PlaceOrder'
+import PlaceOrder from './Pages/PlaceOrder/PlaceOrder'
+
 const App = () => {
   return (
     <div className='app'>
