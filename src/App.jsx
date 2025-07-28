@@ -7,7 +7,8 @@ import PlaceOrder from './Pages/PlaceOrder/PlaceOrder'
 
 const App = () => {
   return (
-    <div className='app'>
+    <>
+        <div className='app'>
       <Navbar></Navbar>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
@@ -15,6 +16,9 @@ const App = () => {
         <Route path='/placeOrder' element={<PlaceOrder></PlaceOrder>}></Route>
       </Routes>
     </div>
+    <Footer></Footer>
+    </>
+
   )
 }
 
