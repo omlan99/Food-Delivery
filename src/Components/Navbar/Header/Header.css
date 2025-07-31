@@ -35,3 +35,25 @@
     font-size: max(1vw, 13px) ;
     border-radius: 50px;
  }
+
+ @nedia (max-width:1050px){
+   .header{
+      height: 38vw;
+
+   }
+   .header-contents{
+      max-width: 45%;
+   }
+ }
+ @nedia (max-width:750px){
+
+   .header-contents{
+      max-width: 65%;
+   }
+   .header-content p{
+      display: none;
+   }
+   .header-content button {
+      padding: 2vw 4vw;
+   }
+ }
